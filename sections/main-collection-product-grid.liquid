@@ -36,7 +36,19 @@
      li.grid__item.promo-banner {
     max-height: 582px;
 }
+    
+  li.grid__item.promo-banner {
+    width: calc(50% - var(--grid-desktop-horizontal-spacing)* 3 / 4);
+    max-width: calc(50% - var(--grid-desktop-horizontal-spacing)* 3 / 4);
+}
   }
+
+   @media screen and (max-width: 749px) {
+ li.grid__item.promo-banner {
+    width: calc(100% - var(--grid-desktop-horizontal-spacing)* 0 / 4);
+    max-width: calc(100% - var(--grid-desktop-horizontal-spacing)* 0 / 4);
+}
+   }
   
 .promo-banner {
   position: relative;
@@ -104,10 +116,6 @@
 
 .promo-banner:hover::after {
   background: rgba(0,0,0,0.3);
-}
-  li.grid__item.promo-banner {
-    width: calc(50% - var(--grid-desktop-horizontal-spacing)* 3 / 4);
-    max-width: calc(50% - var(--grid-desktop-horizontal-spacing)* 3 / 4);
 }
 </style>
 
