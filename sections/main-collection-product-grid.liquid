@@ -194,22 +194,7 @@
       data-cascade
       style="--animation-order: {{ forloop.index }};"
     {% endif %}>
-    {%- if promo_image contains 'files' -%}
-        <img src="{{ promo_image | file_img_url: '800x' }}" 
-             loading="lazy" 
-             class="promo-banner__image" 
-             alt="{{ promo_image.alt | default: 'Promotional banner' }}">
-      {%- else -%}
-        {{
-          promo_image
-          | image_url: width: 800
-          | image_tag:
-            loading: 'lazy',
-            class: 'promo-banner__image',
-            alt: promo_image.alt | default: 'Promotional banner'
-        }}
-      {%- endif -%}
- 
+    <img src="https://cld.accentuate.io/63672647795/1738249003789/Bremont_Supermarine_SM43_Ceramic_Green_Rubber_TopDown_copy.webp?v=1738249003789&options=w_1944" loading="lazy">
   </li>
 {%- endif -%}
     
