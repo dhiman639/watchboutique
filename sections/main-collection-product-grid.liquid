@@ -194,14 +194,10 @@
       data-cascade
       style="--animation-order: {{ forloop.index }};"
     {% endif %}>
-   {{
-        metafield.custom.collection_grid_image
-        | image_url: width: 800
-        | image_tag:
-          loading: 'lazy',
-          class: 'promo-banner__image',
-          alt: metafield.custom.collection_grid_image.alt | default: 'Promotional banner'
-      }}
+    <img src="{{ promo_image | file_img_url: '800x' }}" 
+             loading="lazy" 
+             class="promo-banner__image" 
+             alt="{{ promo_image.alt | default: 'Promotional banner' }}">
  
   </li>
 {%- endif -%}
