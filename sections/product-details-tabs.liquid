@@ -1,0 +1,163 @@
+{%- style -%}
+  #shopify-section-{{ section.id }} .product-details-tabs-wrapper {
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid #ebebeb;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  #shopify-section-{{ section.id }} .product-details-tabs a {
+    color: #b3b3b3;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 5px;
+    white-space: nowrap;
+  }
+  
+  #shopify-section-{{ section.id }} .product-details-tabs a:hover,
+  #shopify-section-{{ section.id }} .product-details-tabs a.active {
+    color: #000;
+  }
+  
+  #shopify-section-{{ section.id }} .product-details-tabs a.active:after {
+    content: '';
+    position: absolute;
+    bottom: -21px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #000;
+  }
+
+  @media (max-width: 749px) {
+    #shopify-section-{{ section.id }} .product-details-tabs-wrapper {
+      gap: 10px;
+      padding-left: 20px;
+    }
+    #shopify-section-{{ section.id }} .product-details-tabs a {
+      font-size: 0.8rem;
+    }
+  }
+{%- endstyle -%}
+
+<div class="product-details-tabs-wrapper">
+  {% for i in (1..4) %}
+    {% assign tab_label = 'tab' | append: i | append: '_label' %}
+    {% assign tab_anchor = 'tab' | append: i | append: '_anchor' %}
+    <div class="product-details-tabs">
+      <a href="#{{ section.settings[tab_anchor] | default: tab_anchor | replace: 'tab1_anchor', 'overview' | replace: 'tab2_anchor', 'desc' | replace: 'tab3_anchor', 'spec' | replace: 'tab4_anchor', 'related' | downcase }}"
+         class="{% if forloop.first and request.page_type == 'product' %}active{% endif %}">
+        {{ section.settings[tab_label] | default: tab_label | replace: 'tab1_label', 'OVERVIEW' | replace: 'tab2_label', 'DESCRIPTION' | replace: 'tab3_label', 'SPECIFICATIONS' | replace: 'tab4_label', 'RELATED PRODUCTS' }}
+      </a>
+    </div>
+  {% endfor %}
+</div>
+
+
+<script>
+document.querySelectorAll('.product-details-tabs a').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    
+    const targetId = this.getAttribute('href');
+    const targetElement = document.querySelector(targetId);
+    
+    if (targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop,
+        behavior: 'smooth'
+      });
+      
+      // Update URL without page jump
+      history.pushState(null, null, targetId);
+    }
+  });
+});
+</script>
+
+{% schema %}
+{
+  "name": "Product Details Tabs",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Tab 1 Settings"
+    },
+    {
+      "type": "text",
+      "id": "tab1_label",
+      "label": "Tab 1 Label",
+      "default": "OVERVIEW"
+    },
+    {
+      "type": "text",
+      "id": "tab1_anchor",
+      "label": "Tab 1 Anchor Link",
+      "default": "overview",
+      "info": "Don't include the # symbol"
+    },
+    {
+      "type": "header",
+      "content": "Tab 2 Settings"
+    },
+    {
+      "type": "text",
+      "id": "tab2_label",
+      "label": "Tab 2 Label",
+      "default": "DESCRIPTION"
+    },
+    {
+      "type": "text",
+      "id": "tab2_anchor",
+      "label": "Tab 2 Anchor Link",
+      "default": "desc"
+    },
+    {
+      "type": "header",
+      "content": "Tab 3 Settings"
+    },
+    {
+      "type": "text",
+      "id": "tab3_label",
+      "label": "Tab 3 Label",
+      "default": "SPECIFICATIONS"
+    },
+    {
+      "type": "text",
+      "id": "tab3_anchor",
+      "label": "Tab 3 Anchor Link",
+      "default": "spec"
+    },
+    {
+      "type": "header",
+      "content": "Tab 4 Settings"
+    },
+    {
+      "type": "text",
+      "id": "tab4_label",
+      "label": "Tab 4 Label",
+      "default": "RELATED PRODUCTS"
+    },
+    {
+      "type": "text",
+      "id": "tab4_anchor",
+      "label": "Tab 4 Anchor Link",
+      "default": "related"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Details Tabs",
+      "category": "Product"
+    }
+  ],
+  "enabled_on": {
+    "templates": ["product"]
+  }
+}
+{% endschema %}

@@ -1,0 +1,336 @@
+{{ 'section-video-banner.css' | asset_url | stylesheet_tag }}
+
+<div class="video-banner video-banner--{{ section.settings.height }}{% if section.settings.adapt_height_first_image and section.settings.image != blank %} video-banner--adapt{% endif %}">
+  <div class="video-banner__media-container">
+    {%- if section.settings.video_type == "mp4" and section.settings.mp4_url != blank -%}
+      <video class="video-banner__media" autoplay loop muted playsinline>
+        <source src="{{ section.settings.mp4_url }}" type="video/mp4">
+      </video>
+    {%- elsif section.settings.video_type == "youtube" and section.settings.youtube_url != blank -%}
+      <iframe class="video-banner__media"
+        src="https://www.youtube.com/embed/{{ section.settings.youtube_url }}?autoplay=1&loop=1&mute=1&playlist={{ section.settings.youtube_url }}"
+        frameborder="0" allow="autoplay; fullscreen">
+      </iframe>
+    {%- elsif section.settings.video_type == "vimeo" and section.settings.vimeo_url != blank -%}
+      <iframe class="video-banner__media"
+        src="https://player.vimeo.com/video/{{ section.settings.vimeo_url }}?autoplay=1&loop=1&muted=1"
+        frameborder="0" allow="autoplay; fullscreen">
+      </iframe>
+    {%- endif -%}
+  </div>
+  
+  <div class="video-banner__content video-banner__content--{{ section.settings.desktop_content_position }} page-width">
+    <div class="video-banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'heading' -%}
+            <h2 class="video-banner__heading inline-richtext {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+              {{ block.settings.heading }}
+            </h2>
+          {%- when 'text' -%}
+            <div class="video-banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+              <p>{{ block.settings.text }}</p>
+            </div>
+          {%- when 'buttons' -%}
+            <div class="video-banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} video-banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
+              {%- if block.settings.button_label_1 != blank -%}
+                <a
+                  {% if block.settings.button_link_1 == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.button_link_1 }}"
+                  {% endif %}
+                  class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
+                >
+                  {{- block.settings.button_label_1 | escape -}}
+                </a>
+              {%- endif -%}
+              {%- if block.settings.button_label_2 != blank -%}
+                <a
+                  {% if block.settings.button_link_2 == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.button_link_2 }}"
+                  {% endif %}
+                  class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
+                >
+                  {{- block.settings.button_label_2 | escape -}}
+                </a>
+              {%- endif -%}
+            </div>
+        {%- endcase -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Video Banner",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "video_type",
+      "label": "Video Type",
+      "options": [
+        { "value": "mp4", "label": "MP4" },
+        { "value": "youtube", "label": "YouTube" },
+        { "value": "vimeo", "label": "Vimeo" }
+      ],
+      "default": "youtube" 
+    },
+    {
+      "type": "url",
+      "id": "mp4_url",
+      "label": "MP4 Video URL",
+      "info": "Upload an MP4 video file and paste the link here."
+    },
+    {
+      "type": "text",
+      "id": "youtube_url",
+      "label": "YouTube Video ID",
+      "default": "_9VUPq3SxOc", 
+      "info": "Enter only the YouTube video ID (e.g., dQw4w9WgXcQ)"
+    },
+    {
+      "type": "text",
+      "id": "vimeo_url",
+      "label": "Vimeo Video ID",
+      "info": "Enter only the Vimeo video ID (e.g., 123456789)"
+    },
+    {
+      "type": "select",
+      "id": "height",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "medium",
+      "label": "Video banner height"
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_position",
+      "options": [
+        {
+          "value": "top-left",
+          "label": "Top left"
+        },
+        {
+          "value": "top-center",
+          "label": "Top center"
+        },
+        {
+          "value": "top-right",
+          "label": "Top right"
+        },
+        {
+          "value": "middle-left",
+          "label": "Middle left"
+        },
+        {
+          "value": "middle-center",
+          "label": "Middle center"
+        },
+        {
+          "value": "middle-right",
+          "label": "Middle right"
+        },
+        {
+          "value": "bottom-left",
+          "label": "Bottom left"
+        },
+        {
+          "value": "bottom-center",
+          "label": "Bottom center"
+        },
+        {
+          "value": "bottom-right",
+          "label": "Bottom right"
+        }
+      ],
+      "default": "middle-center",
+      "label": "Desktop content position"
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center",
+      "label": "Desktop content alignment"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "adapt_height_first_image",
+      "default": false,
+      "label": "Adapt height to video"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "Heading",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "Video banner",
+          "label": "Heading"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "Small"
+            },
+            {
+              "value": "h1",
+              "label": "Medium"
+            },
+            {
+              "value": "h0",
+              "label": "Large"
+            },
+            {
+              "value": "hxl",
+              "label": "Extra Large"
+            },
+            {
+              "value": "hxxl",
+              "label": "Extra Extra Large"
+            }
+          ],
+          "default": "h1",
+          "label": "Heading size"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Text",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Give customers details about the video banner.</p>"
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "options": [
+            {
+              "value": "body",
+              "label": "Body"
+            },
+            {
+              "value": "subtitle",
+              "label": "Subtitle"
+            },
+            {
+              "value": "caption-with-letter-spacing",
+              "label": "Uppercase"
+            }
+          ],
+          "default": "body",
+          "label": "Text style"
+        }
+      ]
+    },
+    {
+      "type": "buttons",
+      "name": "Buttons",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label_1",
+          "default": "Button label",
+          "label": "First button label",
+          "info": "Leave the label blank to hide the button."
+        },
+        {
+          "type": "url",
+          "id": "button_link_1",
+          "label": "First button link"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary_1",
+          "default": false,
+          "label": "Use outline button style"
+        },
+        {
+          "type": "text",
+          "id": "button_label_2",
+          "default": "Button label",
+          "label": "Second button label",
+          "info": "Leave the label blank to hide the button."
+        },
+        {
+          "type": "url",
+          "id": "button_link_2",
+          "label": "Second button link"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary_2",
+          "default": false,
+          "label": "Use outline button style"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video Banner",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "buttons"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
