@@ -38,11 +38,30 @@
 }
   }
   
- .promo-banner {
+.promo-banner {
   position: relative;
+  overflow: hidden;
 }
 
-.promo-banner .promo-content {
+.promo-image-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.promo-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.promo-banner:hover .promo-image {
+  transform: scale(1.05);
+}
+
+/* Keep all your existing overlay styles */
+.promo-content {
   position: absolute;
   top: 0;
   left: 0;
@@ -58,35 +77,17 @@
   z-index: 2;
 }
 
-.promo-banner .promo-heading {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    color: #fff;
+.promo-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
-.promo-banner .promo-text {
+.promo-text {
   font-size: 1.25rem;
   max-width: 80%;
   text-shadow: 0 1px 2px rgba(0,0,0,0.3);
-}
-
-.promo-banner .image-wrapper {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.promo-banner img {
-  transition: transform 0.5s ease;
-  will-change: transform;
-  width: 100%;
-}
-
-.promo-banner:hover img {
-  transform: scale(1.05);
 }
 
 .promo-banner::after {
@@ -240,12 +241,12 @@
       data-cascade
       style="--animation-order: {{ forloop.index }};"
     {% endif %}>
-    <div class="image-wrapper">
-      <img src="https://cld.accentuate.io/63672647795/1738249003789/Bremont_Supermarine_SM43_Ceramic_Green_Rubber_TopDown_copy.webp?v=1738249003789&options=w_1944" loading="lazy">
+    <div class="promo-image-container">
+      <img src="https://cld.accentuate.io/63672647795/1738249003789/Bremont_Supermarine_SM43_Ceramic_Green_Rubber_TopDown_copy.webp?v=1738249003789&options=w_1944" loading="lazy" class="promo-image">
     </div>
     <div class="promo-content">
       <h3 class="promo-heading">Special Offer</h3>
-      <p class="promo-text">Discover our limited edition collection with exclusive discounts</p>
+      <p class="promo-text">Discover our limited edition collection</p>
     </div>
   </li>
 {%- endif -%}
