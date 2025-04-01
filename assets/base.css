@@ -3628,3 +3628,6 @@ details-disclosure > details {
 .collection-hero__title {
     text-align: center;
 }
+.card-vendor {
+    margin-bottom: 12px;
+}
