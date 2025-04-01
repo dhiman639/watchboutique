@@ -23,7 +23,9 @@
   align-items: flex-start;
   gap: 1.5rem;
 }
-
+h3.card__heading.h3 {
+    text-transform: uppercase;
+}
 .card--horizontal.ratio:before {
   padding-bottom: 0;
 }
