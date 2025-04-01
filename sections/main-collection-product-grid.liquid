@@ -184,7 +184,7 @@
       {%- assign lazy_load = true -%}
     {%- endif -%}
     
-   {%- comment -%} Show the promo banner after every 6 products {%- endcomment -%}
+  
 {%- assign mod_result = forloop.index | modulo: 5 -%}
 {%- if mod_result == 0 and forloop.index != 1 -%}
   <li class="grid__item promo-banner{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
