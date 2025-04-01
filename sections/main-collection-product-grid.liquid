@@ -194,10 +194,21 @@
       data-cascade
       style="--animation-order: {{ forloop.index }};"
     {% endif %}>
-    <img src="{{ promo_image | file_img_url: '800x' }}" 
+    {%- if promo_image contains 'files' -%}
+        <img src="{{ promo_image | file_img_url: '800x' }}" 
              loading="lazy" 
              class="promo-banner__image" 
              alt="{{ promo_image.alt | default: 'Promotional banner' }}">
+      {%- else -%}
+        {{
+          promo_image
+          | image_url: width: 800
+          | image_tag:
+            loading: 'lazy',
+            class: 'promo-banner__image',
+            alt: promo_image.alt | default: 'Promotional banner'
+        }}
+      {%- endif -%}
  
   </li>
 {%- endif -%}
