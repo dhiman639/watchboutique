@@ -194,7 +194,14 @@
       data-cascade
       style="--animation-order: {{ forloop.index }};"
     {% endif %}>
-    {{ metafield.custom.collection_grid_image | image_url }}
+   {{
+        metafield.custom.collection_grid_image
+        | image_url: width: 800
+        | image_tag:
+          loading: 'lazy',
+          class: 'promo-banner__image',
+          alt: metafield.custom.collection_grid_image.alt | default: 'Promotional banner'
+      }}
  
   </li>
 {%- endif -%}
