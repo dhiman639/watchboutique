@@ -244,19 +244,33 @@
     
   
 {%- if forloop.index == 5 -%}
+ {%- if section.settings.show_promo_banner and forloop.index == section.settings.promo_position -%}
   <li class="grid__item promo-banner{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}
       data-cascade
       style="--animation-order: {{ forloop.index }};"
     {% endif %}>
     <div class="promo-image-container">
-      <img src="https://cld.accentuate.io/63672647795/1738249003789/Bremont_Supermarine_SM43_Ceramic_Green_Rubber_TopDown_copy.webp?v=1738249003789&options=w_1944" loading="lazy" class="promo-image">
+      <img 
+        src="{{ section.settings.promo_image | img_url: '1200x' }}" 
+        loading="lazy" 
+        class="promo-image"
+        alt="{{ section.settings.promo_image.alt | escape }}"
+        width="1200"
+        height="{{ 1200 | divided_by: section.settings.promo_image.aspect_ratio | round }}"
+      >
     </div>
-    <div class="promo-content">
-      <h3 class="promo-heading">Special Offer</h3>
-      <p class="promo-text">Discover our limited edition collection</p>
+    <div class="promo-content" style="color: {{ section.settings.text_color }};">
+      <h3 class="promo-heading">{{ section.settings.heading }}</h3>
+      <p class="promo-text">{{ section.settings.text }}</p>
+      {%- if section.settings.button_label != blank -%}
+        <a href="{{ section.settings.button_link }}" class="button" style="background: {{ section.settings.button_color }}; color: {{ section.settings.button_text_color }};">
+          {{- section.settings.button_label -}}
+        </a>
+      {%- endif -%}
     </div>
   </li>
+{%- endif -%}
 {%- endif -%}
     
     <li
