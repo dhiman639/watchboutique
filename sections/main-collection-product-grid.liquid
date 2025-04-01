@@ -33,6 +33,9 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
+     li.grid__item.promo-banner {
+    max-height: 576px;
+}
   }
   
   .promo-banner {
@@ -57,7 +60,6 @@
   li.grid__item.promo-banner {
     width: calc(50% - var(--grid-desktop-horizontal-spacing)* 3 / 4);
     max-width: calc(50% - var(--grid-desktop-horizontal-spacing)* 3 / 4);
-    max-height: 576px;
 }
 </style>
 
