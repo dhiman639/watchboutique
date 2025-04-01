@@ -35,7 +35,7 @@
         "promo_image": "shopify://shop_images/Bremont_Supermarine_SM43_Ceramic_Green_Rubber_TopDown_copy.webp",
         "heading": "Special Offer",
         "text": "Discover our limited edition collection",
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "button_label": "Shop Now",
         "button_link": "",
         "button_color": "#ffffff",
@@ -43,7 +43,7 @@
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     }
