@@ -38,25 +38,69 @@
 }
   }
   
-  .promo-banner {
-    grid-column: span 2;
-    display: flex;
-    overflow: hidden;
-    height: 100%; 
-  }
-  
-  .promo-banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
+ .promo-banner {
+  position: relative;
+}
 
-  
-  .promo-banner,
-  .promo-banner .scroll-trigger {
-    height: 100%;
-  }
+.promo-banner .promo-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  color: white;
+  z-index: 2;
+}
+
+.promo-banner .promo-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.promo-banner .promo-text {
+  font-size: 1.25rem;
+  max-width: 80%;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.promo-banner .image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.promo-banner img {
+  transition: transform 0.5s ease;
+  will-change: transform;
+}
+
+.promo-banner:hover img {
+  transform: scale(1.05);
+}
+
+.promo-banner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.promo-banner:hover::after {
+  background: rgba(0,0,0,0.3);
+}
   li.grid__item.promo-banner {
     width: calc(50% - var(--grid-desktop-horizontal-spacing)* 3 / 4);
     max-width: calc(50% - var(--grid-desktop-horizontal-spacing)* 3 / 4);
