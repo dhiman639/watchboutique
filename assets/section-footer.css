@@ -508,7 +508,7 @@
 
 
 /* footer menu accordain */
-
+@media (max-width: 749px) {
   .grid .footer-block.grid__item {
     margin: 0;
   }
