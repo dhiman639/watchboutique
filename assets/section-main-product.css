@@ -1493,5 +1493,5 @@ a.product__text {
   }
 }
 .complementary-products__container .card__information, .card__information .price {
-    text-align: left;
+    text-align: left !important;
 }
