@@ -320,6 +320,40 @@
   </div>
 </footer>
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const headings = document.querySelectorAll('.footer-block__heading');
+
+  headings.forEach(function (heading) {
+    heading.addEventListener('click', function () {
+      const detailsContent = heading.nextElementSibling;
+      
+      if (detailsContent && detailsContent.classList.contains('footer-block__details-content')) {
+        if (detailsContent.style.maxHeight) {
+         
+          detailsContent.style.maxHeight = null;
+          heading.classList.remove('active');
+        } else {
+          
+          document.querySelectorAll('.footer-block__details-content').forEach(function (detail) {
+            detail.style.maxHeight = null;
+          });
+
+          document.querySelectorAll('.footer-block__heading').forEach(function (h) {
+            h.classList.remove('active');
+          });
+
+          detailsContent.style.maxHeight = detailsContent.scrollHeight + 'px';
+          heading.classList.add('active');
+        }
+      }
+    });
+  });
+});
+
+
+</script>
+
 {% schema %}
 {
   "name": "t:sections.footer.name",
