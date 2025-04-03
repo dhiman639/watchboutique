@@ -1492,3 +1492,6 @@ a.product__text {
     border: none;
   }
 }
+.complementary-products__container .card__information, .card__information .price {
+    text-align: left;
+}
