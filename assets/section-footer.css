@@ -534,4 +534,7 @@
   .footer-block.grid__item .footer-block__heading.active::after {
     content: "-";
   }
+  .footer-block__heading {
+    margin-bottom: 0rem;
+}
 }
