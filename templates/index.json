@@ -437,7 +437,7 @@
         "newsletter_pTrgcH": {
           "type": "newsletter",
           "settings": {
-            "placeholder": "Email",
+            "placeholder": "Your email address",
             "button_label": "SIGNUP",
             "success_message": "Thanks for subscribing!"
           }
