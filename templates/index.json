@@ -429,10 +429,43 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_GpBJDV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Handmade.png",
+            "title": "",
+            "text": "<p>Hand built in the UK</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4kekiR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Handmade.png",
+            "title": "",
+            "text": "<p>Hand built in the UK</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GRahnG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Handmade.png",
+            "title": "",
+            "text": "<p>Hand built in the UK</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "column_mWKUez"
+        "column_mWKUez",
+        "column_GpBJDV",
+        "column_4kekiR",
+        "column_GRahnG"
       ],
       "settings": {
         "title": "",
