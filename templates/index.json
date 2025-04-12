@@ -470,7 +470,7 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "image_width": "third",
+        "image_width": "small",
         "image_ratio": "adapt",
         "button_label": "",
         "button_link": "",
@@ -506,6 +506,8 @@
           "settings": {
             "placeholder": "Your email address",
             "button_label": "SIGNUP",
+            "button_color": "#000000",
+            "button_text_color": "#ffffff",
             "success_message": "Thanks for subscribing!"
           }
         },
