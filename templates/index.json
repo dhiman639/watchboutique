@@ -438,7 +438,7 @@
           "type": "newsletter",
           "settings": {
             "placeholder": "Email address",
-            "button_label": "Subscribe",
+            "button_label": "SIGNUP",
             "success_message": "Thanks for subscribing!"
           }
         },
