@@ -151,7 +151,7 @@
             name="commit"
             id="Subscribe"
             aria-label="{{ block.settings.button_label | escape }}"
-            style="{% if block.settings.button_color != blank %}background-color: {{ block.settings.button_color }};{% endif %}"
+            style="{% if block.settings.button_color != blank %}background-color: {{ block.settings.button_color }}; color: {{ block.settings.button_text_color }};{% endif %}"
           >
             {{ block.settings.button_label | escape }}
           </button>
