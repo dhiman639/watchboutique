@@ -17,6 +17,7 @@
     {%- if block.type == 'newsletter' and block.settings.button_color != blank -%}
       #ImageWithText--{{ section.id }} .newsletter-form__button {
         background-color: {{ block.settings.button_color }};
+        color: {{ block.settings.button_text_ }};
       }
       #ImageWithText--{{ section.id }} .newsletter-form__button:hover {
         background-color: {{ block.settings.button_color | color_darken: 10 }};
