@@ -263,6 +263,7 @@
         "text_dYd3qY",
         "buttons_GbBL9L"
       ],
+      "disabled": true,
       "settings": {
         "video_type": "mp4",
         "mp4_url": "https://cdn.shopify.com/videos/c/o/v/e097aa7cb638450fac06922eb3f4ee3b.mp4",
@@ -273,6 +274,44 @@
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-1d3747e9-474d-4563-b3d8-8a946f8b0c78",
         "adapt_height_first_image": false
+      }
+    },
+    "slideshow_QbFMdH": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_KLLDip": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/home_page_banner_meteor.jpg",
+            "image_overlay_opacity": 0,
+            "caption": "INTRODUCING",
+            "text_style": "body",
+            "heading": "ALTITUDE MB METEOR",
+            "heading_size": "h1",
+            "subheading": "The MB Meteor integrates frontline materials, improved ergonomics, and significant technical advancements into the MB’s dual-crown, Trip-Tick format.",
+            "button_label": "Shop Now",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "left",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "slide_KLLDip"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "homepage_collection_wrapper_rn3pGc": {
@@ -551,6 +590,7 @@
     "video_banner_78ejgw",
     "featured_collection_433wdW",
     "video_banner_GUWXaB",
+    "slideshow_QbFMdH",
     "homepage_collection_wrapper_rn3pGc",
     "collection_slider_U6N4bY",
     "blog_post_slider_CtTqKc",
