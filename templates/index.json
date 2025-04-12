@@ -506,6 +506,9 @@
         "column_4kekiR",
         "column_GRahnG"
       ],
+      "custom_css": [
+        "p {text-transform: uppercase;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
