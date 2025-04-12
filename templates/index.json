@@ -186,6 +186,7 @@
         "text_YqL64Y",
         "buttons_XKADAL"
       ],
+      "disabled": true,
       "settings": {
         "video_type": "mp4",
         "mp4_url": "https://cdn.shopify.com/videos/c/o/v/e097aa7cb638450fac06922eb3f4ee3b.mp4",
@@ -200,6 +201,7 @@
     },
     "featured_collection_433wdW": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "new-release",
         "products_to_show": 3,
