@@ -30,6 +30,10 @@
   }
 }
 
+.multicolumn-card__image-wrapper--small-width {
+    width: 15%;
+}
+
 .multicolumn-card__image-wrapper--third-width {
   width: 33%;
 }
