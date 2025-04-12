@@ -417,6 +417,69 @@
         "padding_bottom": 52
       }
     },
+    "multicolumn_THCqUY": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mWKUez": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Hand built in the UK</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cmMMG9": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Hand built in the UK</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LitGUM": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Hand built in the UK</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dX8pxG": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Hand built in the UK</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_mWKUez",
+        "column_cmMMG9",
+        "column_LitGUM",
+        "column_dX8pxG"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_Q6i8rP": {
       "type": "image-with-text",
       "blocks": {
@@ -485,6 +548,7 @@
     "homepage_collection_wrapper_rn3pGc",
     "collection_slider_U6N4bY",
     "blog_post_slider_CtTqKc",
+    "multicolumn_THCqUY",
     "image_with_text_Q6i8rP"
   ]
 }
