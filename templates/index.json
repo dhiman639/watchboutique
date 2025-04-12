@@ -439,12 +439,21 @@
             "button_label": "Subscribe",
             "success_message": "Thanks for subscribing!"
           }
+        },
+        "caption_qaA3nj": {
+          "type": "caption",
+          "settings": {
+            "caption": "By signing up to the Bremont newsletter you are agreeing to allow us to email you. We will not share your email with any third parties.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "small"
+          }
         }
       },
       "block_order": [
         "heading_CGiapK",
         "text_cUEMp4",
-        "newsletter_pTrgcH"
+        "newsletter_pTrgcH",
+        "caption_qaA3nj"
       ],
       "settings": {
         "image": "shopify://shop_images/PDP_Description.jpg",
