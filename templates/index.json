@@ -447,6 +447,7 @@
         "newsletter_pTrgcH"
       ],
       "settings": {
+        "image": "shopify://shop_images/PDP_Description.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
