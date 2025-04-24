@@ -45,7 +45,7 @@
     {%- endif -%}
   </div>
   
-  <div class="video-banner__content video-banner__content--{{ section.settings.desktop_content_position }} page-width">
+  <div class="video-banner__content video-banner__content--{{ section.settings.desktop_content_position }} page-width{% unless section.settings.autoplay %} video-banner__content--hidden{% endunless %}">
     <div class="video-banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
@@ -130,6 +130,10 @@
     fill: white;
     margin-left: 5px;
   }
+  
+  .video-banner__content--hidden {
+    display: none;
+  }
 </style>
 
 <script>
@@ -141,6 +145,7 @@
         const container = this.closest('.video-banner__media-container');
         const posterImage = container.querySelector('.video-banner__poster-image');
         const video = container.querySelector('.video-banner__media');
+        const content = document.querySelector('.video-banner__content');
         
         if (posterImage) posterImage.style.display = 'none';
         if (video) {
@@ -154,6 +159,11 @@
           }
         }
         this.style.display = 'none';
+        
+        // Show the content when video starts playing
+        if (content) {
+          content.classList.remove('video-banner__content--hidden');
+        }
       });
     });
   });
