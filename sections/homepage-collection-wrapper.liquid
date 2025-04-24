@@ -36,7 +36,11 @@
     <a style="background-image: url({{ block.settings.background_image | img_url: 'master' }});" href="{{ block.settings.collection_url }}" class="homepage-collections-item">
       {% if block.settings.heading_image != blank %}
         <img class="homepage-collections-box-heading-image" src="{{ block.settings.heading_image | img_url: 'medium' }}" alt="">
-      {% endif %}
+      {%- else -%}
+              <h3 class="homepage-collections-item__heading-text">
+                {{ block.settings.heading }}
+              </h3>
+            {%- endif -%}
       {% if block.settings.overlay_image != blank %}
         <img class="homepage-collections-item-overlay-image homepage-collections-item-overlay-image--fade-in" src="{{ block.settings.overlay_image | img_url: 'medium' }}" alt="">
       {% endif %}
@@ -142,6 +146,12 @@
           "type": "image_picker",
           "id": "heading_image",
           "label": "t:sections.homepage-collections.blocks.column.settings.heading-image.label"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "info": "Shown if heading image is not set"
         },
         {
           "type": "image_picker",
