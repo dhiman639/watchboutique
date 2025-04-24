@@ -119,6 +119,7 @@
         },
         "column_tUPjxi": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/TN-JC-CARD.jpg",
             "title": "",
@@ -142,7 +143,7 @@
         "image_ratio": "landscape",
         "button_label": "",
         "button_link": "",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "left",
         "color_scheme": "scheme-1",
         "block_color_scheme": "scheme-1d3747e9-474d-4563-b3d8-8a946f8b0c78",
