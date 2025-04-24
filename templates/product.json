@@ -1,1 +1,373 @@
-{"sections":{"custom_liquid_8apY9x":{"type":"custom-liquid","settings":{"custom_liquid":"<div id=\"overview\">","color_scheme":"","padding_top":28,"padding_bottom":24}},"main":{"type":"main-product","blocks":{"vendor":{"type":"text","settings":{"text":"<p>{{ product.vendor }}<\/p>","text_style":"uppercase"}},"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button","swatch_shape":"circle"}},"quantity_selector":{"type":"quantity_selector","disabled":true,"settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":false,"show_gift_card_recipient":false}},"text_AhqcpH":{"type":"text","settings":{"text":"{{ product.metafields.custom.short_description | metafield_tag }}","text_style":"body"}},"description":{"type":"description","disabled":true,"settings":{}},"collapsible-row-0":{"type":"collapsible_tab","settings":{"heading":"Delivery & Returns","icon":"none","content":"","page":""}},"collapsible-row-1":{"type":"collapsible_tab","settings":{"heading":"Size guide","icon":"none","content":"","page":""}},"collapsible-row-2":{"type":"collapsible_tab","settings":{"heading":"3 year warranty","icon":"none","content":"","page":""}},"collapsible-row-3":{"type":"collapsible_tab","settings":{"heading":"Proudly made in the UK","icon":"none","content":"","page":""}},"complementary_jpDaWi":{"type":"complementary","settings":{"block_heading":"Other Variations","make_collapsible_row":false,"icon":"price_tag","product_list_limit":1,"products_per_page":1,"pagination_style":"counter","image_ratio":"portrait","enable_quick_add":true}}},"block_order":["vendor","title","price","variant_picker","quantity_selector","buy_buttons","text_AhqcpH","description","collapsible-row-0","collapsible-row-1","collapsible-row-2","collapsible-row-3","complementary_jpDaWi"],"settings":{"enable_sticky_info":true,"color_scheme":"scheme-3e693006-6ac8-4bd6-9d4e-4fbf191b752a","media_size":"large","constrain_to_viewport":true,"media_fit":"contain","gallery_layout":"thumbnail_slider","mobile_thumbnails":"hide","media_position":"left","image_zoom":"lightbox","hide_variants":true,"enable_video_looping":false,"padding_top":12,"padding_bottom":12}},"product_details_tabs_qDD6aT":{"type":"product-details-tabs","settings":{"tab1_label":"OVERVIEW","tab1_anchor":"overview","tab2_label":"DESCRIPTION","tab2_anchor":"desc","tab3_label":"SPECIFICATIONS","tab3_anchor":"spec","tab4_label":"RELATED PRODUCTS","tab4_anchor":"related"}},"custom_liquid_irCfeY":{"type":"custom-liquid","settings":{"custom_liquid":"<div id=\"desc\">","color_scheme":"","padding_top":0,"padding_bottom":0}},"image_with_description_KFGbwq":{"type":"image-with-description","settings":{"image":"{{ product.metafields.custom.description_image.value }}","center_image":"{{ product.featured_image }}","custom_liquid":"{{ product.description }}","height":"adapt","desktop_image_width":"small","layout":"text_first","image_behavior":"none","content_layout":"no-overlap","desktop_content_position":"top","desktop_content_alignment":"left","mobile_content_alignment":"left","full_width":true,"section_color_scheme":"","color_scheme":"","padding_top":36,"padding_bottom":0}},"custom_liquid_qeaywf":{"type":"custom-liquid","settings":{"custom_liquid":"<div id=\"spec\">","color_scheme":"","padding_top":0,"padding_bottom":0}},"image_with_accordain_RbbdAy":{"type":"image-with-accordain","blocks":{"caption_t6kzaz":{"type":"caption","settings":{"caption":"Tech spec","text_style":"caption-with-letter-spacing","text_size":"medium"}},"heading_T8Jd9Y":{"type":"heading","settings":{"heading":"The finer detail you’ll want to know...","heading_size":"h1"}},"accordion_yyjCjR":{"type":"accordion","settings":{"heading":"Movement","icon":"none","row_content":"<p>Modified Calibre 11 1\/2’’’ BE-79AL 31 Jewels<br\/>Glucydur balance<br\/>Anachron balance spring<br\/>Nivaflex mainspring<br\/>28,800 bph (4Hz)<br\/>38-hour power reserve<\/p>","page":""}},"accordion_BmHt4K":{"type":"accordion","settings":{"heading":"Functions","icon":"none","row_content":"<p>Central hour\/minute function<br\/>Date window at 3 o'clock<br\/>Power reserve at 6 o'clock<br\/>Running second hand at 9 o'clock<br\/>Rotating compass bezel<\/p>","page":""}},"accordion_hhpeCr":{"type":"accordion","settings":{"heading":"Case","icon":"none","row_content":"<p>Satin and polished two-piece Cupro-Aluminium bronze case<br\/>Bi-directional Cupro-Aluminium bronze bezel engraved with the compass rose<br\/>Push-in crown<br\/><br\/>Case Diameter: 40.5mm<br\/>Case Length: 47 mm<br\/>Case Depth: 11.91mm<br\/>Lug Width: 22mm<\/p>","page":""}},"accordion_8CTPGL":{"type":"accordion","settings":{"heading":"Case back","icon":"none","row_content":"<p>PVD bronze-coloured stainless steel case back.<\/p>","page":""}},"accordion_x3Kxhd":{"type":"accordion","settings":{"heading":"Dial & Hands","icon":"none","row_content":"<p>Gradient caramel metal dial with 3D vintage Super-LumiNova® (Green emission) blocks<br\/>Polished Rose Gold plated hour and minute hands with vintage Super-LumiNova® (Green emission)<br\/>Polished Rose Gold plated power reserve and sub-second hands<\/p>","page":""}},"accordion_cPfzde":{"type":"accordion","settings":{"heading":"Crystal","icon":"none","row_content":"<p>Domed anti-reflective, scratch resistant sapphire crystal.<\/p>","page":""}},"accordion_HtGpmj":{"type":"accordion","settings":{"heading":"Water Resistance","icon":"none","row_content":"<p>10 ATM, 100 metres.<\/p>","page":""}},"accordion_P8rJCF":{"type":"accordion","settings":{"heading":"Strap","icon":"none","row_content":"<p>Cupro-Aluminium bronze quick release bracelet with butterfly clasp.<\/p>","page":""}},"accordion_QcfYQn":{"type":"accordion","settings":{"heading":"Weight","icon":"none","row_content":"<p>75g (watch head only)<\/p>","page":""}}},"block_order":["caption_t6kzaz","heading_T8Jd9Y","accordion_yyjCjR","accordion_BmHt4K","accordion_hhpeCr","accordion_8CTPGL","accordion_x3Kxhd","accordion_cPfzde","accordion_HtGpmj","accordion_P8rJCF","accordion_QcfYQn"],"settings":{"image":"{{ product.metafields.custom.specification_image.value }}","height":"adapt","desktop_image_width":"medium","layout":"image_first","image_behavior":"none","content_layout":"no-overlap","desktop_content_position":"middle","desktop_content_alignment":"left","mobile_content_alignment":"left","open_first_collapsible_row":false,"full_width":true,"section_color_scheme":"","color_scheme":"scheme-3e693006-6ac8-4bd6-9d4e-4fbf191b752a","padding_top":0,"padding_bottom":0}},"custom_liquid_9DfVHg":{"type":"custom-liquid","settings":{"custom_liquid":"<div id=\"related\">","color_scheme":"","padding_top":0,"padding_bottom":0}},"related-products":{"type":"related-products","settings":{"heading":"You may also like","heading_size":"h2","products_to_show":4,"columns_desktop":4,"columns_mobile":"2","color_scheme":"scheme-1","image_ratio":"square","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"padding_top":36,"padding_bottom":28}}},"order":["custom_liquid_8apY9x","main","product_details_tabs_qDD6aT","custom_liquid_irCfeY","image_with_description_KFGbwq","custom_liquid_qeaywf","image_with_accordain_RbbdAy","custom_liquid_9DfVHg","related-products"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_8apY9x": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"overview\">",
+        "color_scheme": "",
+        "padding_top": 28,
+        "padding_bottom": 24
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.vendor }}</p>",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "text_AhqcpH": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.short_description | metafield_tag }}",
+            "text_style": "body"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Delivery & Returns",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Size guide",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "3 year warranty",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Proudly made in the UK",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
+        "complementary_jpDaWi": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Other Variations",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 1,
+            "products_per_page": 1,
+            "pagination_style": "counter",
+            "image_ratio": "portrait",
+            "enable_quick_add": true
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "text_AhqcpH",
+        "description",
+        "collapsible-row-0",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "complementary_jpDaWi"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-3e693006-6ac8-4bd6-9d4e-4fbf191b752a",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "hide",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "product_details_tabs_qDD6aT": {
+      "type": "product-details-tabs",
+      "settings": {
+        "tab1_label": "OVERVIEW",
+        "tab1_anchor": "overview",
+        "tab2_label": "DESCRIPTION",
+        "tab2_anchor": "desc",
+        "tab3_label": "SPECIFICATIONS",
+        "tab3_anchor": "spec",
+        "tab4_label": "RELATED PRODUCTS",
+        "tab4_anchor": "related"
+      }
+    },
+    "custom_liquid_irCfeY": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"desc\">",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_description_KFGbwq": {
+      "type": "image-with-description",
+      "settings": {
+        "image": "{{ product.metafields.custom.description_image.value }}",
+        "center_image": "{{ product.featured_image }}",
+        "custom_liquid": "{{ product.description }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "full_width": true,
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_qeaywf": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"spec\">",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_accordain_RbbdAy": {
+      "type": "image-with-accordain",
+      "blocks": {
+        "caption_t6kzaz": {
+          "type": "caption",
+          "settings": {
+            "caption": "Tech spec",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_T8Jd9Y": {
+          "type": "heading",
+          "settings": {
+            "heading": "The finer detail you’ll want to know...",
+            "heading_size": "h1"
+          }
+        },
+        "accordion_yyjCjR": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Movement",
+            "icon": "none",
+            "row_content": "<p>Modified Calibre 11 1/2’’’ BE-79AL 31 Jewels<br/>Glucydur balance<br/>Anachron balance spring<br/>Nivaflex mainspring<br/>28,800 bph (4Hz)<br/>38-hour power reserve</p>",
+            "page": ""
+          }
+        },
+        "accordion_BmHt4K": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Functions",
+            "icon": "none",
+            "row_content": "<p>Central hour/minute function<br/>Date window at 3 o'clock<br/>Power reserve at 6 o'clock<br/>Running second hand at 9 o'clock<br/>Rotating compass bezel</p>",
+            "page": ""
+          }
+        },
+        "accordion_hhpeCr": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Case",
+            "icon": "none",
+            "row_content": "<p>Satin and polished two-piece Cupro-Aluminium bronze case<br/>Bi-directional Cupro-Aluminium bronze bezel engraved with the compass rose<br/>Push-in crown<br/><br/>Case Diameter: 40.5mm<br/>Case Length: 47 mm<br/>Case Depth: 11.91mm<br/>Lug Width: 22mm</p>",
+            "page": ""
+          }
+        },
+        "accordion_8CTPGL": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Case back",
+            "icon": "none",
+            "row_content": "<p>PVD bronze-coloured stainless steel case back.</p>",
+            "page": ""
+          }
+        },
+        "accordion_x3Kxhd": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Dial & Hands",
+            "icon": "none",
+            "row_content": "<p>Gradient caramel metal dial with 3D vintage Super-LumiNova® (Green emission) blocks<br/>Polished Rose Gold plated hour and minute hands with vintage Super-LumiNova® (Green emission)<br/>Polished Rose Gold plated power reserve and sub-second hands</p>",
+            "page": ""
+          }
+        },
+        "accordion_cPfzde": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Crystal",
+            "icon": "none",
+            "row_content": "<p>Domed anti-reflective, scratch resistant sapphire crystal.</p>",
+            "page": ""
+          }
+        },
+        "accordion_HtGpmj": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Water Resistance",
+            "icon": "none",
+            "row_content": "<p>10 ATM, 100 metres.</p>",
+            "page": ""
+          }
+        },
+        "accordion_P8rJCF": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Strap",
+            "icon": "none",
+            "row_content": "<p>Cupro-Aluminium bronze quick release bracelet with butterfly clasp.</p>",
+            "page": ""
+          }
+        },
+        "accordion_QcfYQn": {
+          "type": "accordion",
+          "settings": {
+            "heading": "Weight",
+            "icon": "none",
+            "row_content": "<p>75g (watch head only)</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "caption_t6kzaz",
+        "heading_T8Jd9Y",
+        "accordion_yyjCjR",
+        "accordion_BmHt4K",
+        "accordion_hhpeCr",
+        "accordion_8CTPGL",
+        "accordion_x3Kxhd",
+        "accordion_cPfzde",
+        "accordion_HtGpmj",
+        "accordion_P8rJCF",
+        "accordion_QcfYQn"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.specification_image.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "open_first_collapsible_row": false,
+        "full_width": true,
+        "section_color_scheme": "",
+        "color_scheme": "scheme-3e693006-6ac8-4bd6-9d4e-4fbf191b752a",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_9DfVHg": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"related\">",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_8apY9x",
+    "main",
+    "product_details_tabs_qDD6aT",
+    "custom_liquid_irCfeY",
+    "image_with_description_KFGbwq",
+    "custom_liquid_qeaywf",
+    "image_with_accordain_RbbdAy",
+    "custom_liquid_9DfVHg",
+    "related-products"
+  ]
+}
