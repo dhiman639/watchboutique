@@ -1,4 +1,5 @@
 {{ 'section-homepage-collections-wrapper.css' | asset_url | stylesheet_tag }}
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -12,14 +13,12 @@
     }
   }
 {%- endstyle -%}
+
 <div class="homepage-collections color-{{ section.settings.color_scheme }} gradient">
-<div
-    class="page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-    {% if settings.animations_reveal_on_scroll %}
-      data-cascade
-    {% endif %}
-  >
-  {%- unless section.settings.title == blank -%}
+  <div class="page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    {% if settings.animations_reveal_on_scroll %}data-cascade{% endif %}>
+    
+    {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link {% if section.settings.title_center %} title-align-center {% endif %} title-wrapper--self-padded-mobile title-wrapper--no-top-margin homepage-collections__title">
         <h2 class="title inline-richtext {{ section.settings.heading_size }}">
           {{ section.settings.title }}
@@ -31,77 +30,88 @@
         {%- endif -%}
       </div>
     {%- endunless -%}
-<div class="homepage-collections-wrapper" style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px;">
-  {% for block in section.blocks %}
-    <a style="background-image: url({{ block.settings.background_image | img_url: 'master' }});" href="{{ block.settings.collection_url }}" class="homepage-collections-item">
-      {% if block.settings.heading_image != blank %}
-        <img class="homepage-collections-box-heading-image" src="{{ block.settings.heading_image | img_url: 'medium' }}" alt="">
-      {% endif %}
-      {% if block.settings.overlay_image != blank %}
-        <img class="homepage-collections-item-overlay-image homepage-collections-item-overlay-image--fade-in" src="{{ block.settings.overlay_image | img_url: 'medium' }}" alt="">
-      {% endif %}
-    </a>
-  {% endfor %}
-</div>
-</div>
-</div>
 
+    <div class="homepage-collections-wrapper homepage-collections-wrapper--desktop-{{ section.settings.columns_desktop }} homepage-collections-wrapper--mobile-{{ section.settings.columns_mobile }}"
+      style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px;">
+      
+      {% for block in section.blocks %}
+        <a href="{{ block.settings.collection_url }}" 
+          class="homepage-collections-item homepage-collections-item--image-{{ section.settings.image_style }}">
+          
+          {%- if block.settings.background_image != blank -%}
+            <div class="homepage-collections-item__image-container">
+              <img class="homepage-collections-item__background-image" 
+                src="{{ block.settings.background_image | img_url: 'master' }}" 
+                alt="{{ block.settings.background_image.alt | escape }}"
+                loading="lazy">
+            </div>
+          {%- endif -%}
+          
+          <div class="homepage-collections-item__content">
+            {%- if block.settings.heading_image != blank -%}
+              <img class="homepage-collections-item__heading-image" 
+                src="{{ block.settings.heading_image | img_url: 'medium' }}" 
+                alt="{{ block.settings.heading_image.alt | escape }}"
+                loading="lazy">
+            {%- else -%}
+              <h3 class="homepage-collections-item__heading-text">
+                {{ block.settings.heading }}
+              </h3>
+            {%- endif -%}
+          </div>
+          
+          {%- if block.settings.overlay_image != blank -%}
+            <img class="homepage-collections-item__overlay-image" 
+              src="{{ block.settings.overlay_image | img_url: 'medium' }}" 
+              alt="{{ block.settings.overlay_image.alt | escape }}"
+              loading="lazy">
+          {%- endif -%}
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
 
 {% schema %}
 {
-  "name": "t:sections.homepage-collections.name",
+  "name": "Homepage Collections",
   "class": "section",
   "tag": "section",
   "disabled_on": {
     "groups": ["header", "footer"]
   },
   "settings": [
-  {
+    {
       "type": "inline_richtext",
       "id": "title",
-      "default": "t:sections.homepage-collections.settings.title.default",
-      "label": "t:sections.homepage-collections.settings.title.label"
+      "default": "Featured Collections",
+      "label": "Heading"
     },
     {
       "type": "select",
       "id": "heading_size",
       "options": [
-        {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
-          "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
-        },
-        {
-          "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
-        },
-        {
-          "value": "hxl",
-          "label": "t:sections.all.heading_size.options__4.label"
-        },
-        {
-          "value": "hxxl",
-          "label": "t:sections.all.heading_size.options__5.label"
-        }
+        {"value": "h2", "label": "Small"},
+        {"value": "h1", "label": "Medium"},
+        {"value": "h0", "label": "Large"},
+        {"value": "hxl", "label": "Extra Large"},
+        {"value": "hxxl", "label": "Extra Extra Large"}
       ],
       "default": "h1",
-      "label": "t:sections.all.heading_size.label"
+      "label": "Heading size"
     },
     {
       "type": "checkbox",
       "id": "title_center",
       "default": false,
-      "label": "t:sections.homepage-collections.settings.title_center.label"
+      "label": "Center heading"
     },
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:sections.all.colors.label",
+      "label": "Color scheme",
       "default": "scheme-1"
-    }, 
+    },
     {
       "type": "range",
       "id": "padding_top",
@@ -121,43 +131,80 @@
       "unit": "px",
       "label": "Padding Bottom",
       "default": 36
+    },
+    {
+      "type": "select",
+      "id": "image_style",
+      "label": "Image style",
+      "options": [
+        {"value": "original", "label": "Original"},
+        {"value": "portrait", "label": "Portrait"},
+        {"value": "square", "label": "Square"},
+        {"value": "landscape", "label": "Landscape"}
+      ],
+      "default": "original"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "default": 3,
+      "label": "Number of columns on desktop"
+    },
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "label": "Number of columns on mobile",
+      "options": [
+        {"value": "1", "label": "1 column"},
+        {"value": "2", "label": "2 columns"}
+      ],
+      "default": "1"
     }
   ],
   "blocks": [
     {
       "type": "collection",
-      "name": "t:sections.homepage-collections.blocks.column.name",
+      "name": "Collection",
       "settings": [
         {
           "type": "url",
           "id": "collection_url",
-          "label": "t:sections.homepage-collections.blocks.column.settings.link.label"
+          "label": "Link"
         },
         {
-      "type": "image_picker",
-      "id": "background_image",
-      "label": "t:sections.homepage-collections.blocks.column.settings.background-image.label"
-    },
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "info": "Shown if heading image is not set"
+        },
+        {
+          "type": "image_picker",
+          "id": "background_image",
+          "label": "Background image"
+        },
         {
           "type": "image_picker",
           "id": "heading_image",
-          "label": "t:sections.homepage-collections.blocks.column.settings.heading-image.label"
+          "label": "Heading image"
         },
         {
           "type": "image_picker",
           "id": "overlay_image",
-          "label": "t:sections.homepage-collections.blocks.column.settings.overlay-image.label"
+          "label": "Overlay image"
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "t:sections.homepage-collections.name",
+      "name": "Homepage Collections",
       "blocks": [
-        { "type": "collection" },
-        { "type": "collection" },
-        { "type": "collection" }
+        {"type": "collection"},
+        {"type": "collection"},
+        {"type": "collection"}
       ]
     }
   ]
