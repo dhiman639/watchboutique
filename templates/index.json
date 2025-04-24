@@ -91,8 +91,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Homepage-LE-callout_ember_red.jpg",
-            "title": "",
-            "text": "<p>LIMITED TO 200<br/><strong>SUPERMARINE 300M GMT<br/>'EMBER' RED</strong></p>",
+            "title": "Rolex",
+            "text": "",
             "link_label": "Shop Now",
             "link": ""
           }
@@ -101,8 +101,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Homepage-LE-callout_green_ceramic.jpg",
-            "title": "",
-            "text": "<p>LIMITED TO 200<br/><strong>SUPERMARINE 300M GMT<br/>'EMBER' RED</strong></p>",
+            "title": "Audemars Piguet",
+            "text": "",
             "link_label": "Shop Now",
             "link": ""
           }
@@ -111,8 +111,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Homepage-LE-callout_pink.jpg",
-            "title": "",
-            "text": "<p>LIMITED TO 200<br/><strong>SUPERMARINE 300M GMT<br/>'EMBER' RED</strong></p>",
+            "title": "Patek Philippe",
+            "text": "",
             "link_label": "Shop Now",
             "link": ""
           }
