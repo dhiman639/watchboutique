@@ -94,7 +94,7 @@
             "title": "Rolex",
             "text": "",
             "link_label": "Shop Now",
-            "link": ""
+            "link": "shopify://collections/rolex"
           }
         },
         "column_rdiy6E": {
@@ -104,7 +104,7 @@
             "title": "Audemars Piguet",
             "text": "",
             "link_label": "Shop Now",
-            "link": ""
+            "link": "shopify://collections/audemars-piguet"
           }
         },
         "column_6J9Y3x": {
@@ -114,7 +114,7 @@
             "title": "Patek Philippe",
             "text": "",
             "link_label": "Shop Now",
-            "link": ""
+            "link": "shopify://collections/patek-philippe"
           }
         },
         "column_tUPjxi": {
