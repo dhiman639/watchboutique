@@ -156,45 +156,13 @@
     },
     "video_banner_mLLiUK": {
       "type": "video-banner",
-      "blocks": {
-        "heading_bjiDJJ": {
-          "type": "heading",
-          "settings": {
-            "heading": "Video banner",
-            "heading_size": "h1"
-          }
-        },
-        "text_XjrWiP": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Give customers details about the video banner.</p>",
-            "text_style": "body"
-          }
-        },
-        "buttons_aKV8Ww": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_bjiDJJ",
-        "text_XjrWiP",
-        "buttons_aKV8Ww"
-      ],
       "settings": {
         "video_type": "mp4",
         "mp4_url": "https://cdn.shopify.com/videos/c/o/v/e097aa7cb638450fac06922eb3f4ee3b.mp4",
         "youtube_url": "",
         "vimeo_url": "",
         "poster_image": "shopify://shop_images/home_page_banner_meteor.jpg",
-        "autoplay": true,
+        "autoplay": false,
         "height": "large",
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
