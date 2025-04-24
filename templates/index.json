@@ -48,6 +48,7 @@
         "mp4_url": "https://cdn.shopify.com/videos/c/o/v/e097aa7cb638450fac06922eb3f4ee3b.mp4",
         "youtube_url": "",
         "vimeo_url": "",
+        "autoplay": true,
         "height": "large",
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
@@ -153,24 +154,24 @@
         "padding_bottom": 36
       }
     },
-    "video_banner_78ejgw": {
+    "video_banner_mLLiUK": {
       "type": "video-banner",
       "blocks": {
-        "heading_PmC3JC": {
+        "heading_bjiDJJ": {
           "type": "heading",
           "settings": {
             "heading": "Video banner",
             "heading_size": "h1"
           }
         },
-        "text_YqL64Y": {
+        "text_XjrWiP": {
           "type": "text",
           "settings": {
             "text": "<p>Give customers details about the video banner.</p>",
             "text_style": "body"
           }
         },
-        "buttons_XKADAL": {
+        "buttons_aKV8Ww": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Button label",
@@ -183,93 +184,17 @@
         }
       },
       "block_order": [
-        "heading_PmC3JC",
-        "text_YqL64Y",
-        "buttons_XKADAL"
+        "heading_bjiDJJ",
+        "text_XjrWiP",
+        "buttons_aKV8Ww"
       ],
-      "disabled": true,
       "settings": {
         "video_type": "mp4",
         "mp4_url": "https://cdn.shopify.com/videos/c/o/v/e097aa7cb638450fac06922eb3f4ee3b.mp4",
         "youtube_url": "",
         "vimeo_url": "",
-        "height": "large",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-1d3747e9-474d-4563-b3d8-8a946f8b0c78",
-        "adapt_height_first_image": false
-      }
-    },
-    "featured_collection_433wdW": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "new-release",
-        "products_to_show": 3,
-        "title": "THE NEW ARRIVAL",
-        "title_center": true,
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 3,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video_banner_GUWXaB": {
-      "type": "video-banner",
-      "blocks": {
-        "heading_faMwGE": {
-          "type": "heading",
-          "settings": {
-            "heading": "Video banner",
-            "heading_size": "h1"
-          }
-        },
-        "text_dYd3qY": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Give customers details about the video banner.</p>",
-            "text_style": "body"
-          }
-        },
-        "buttons_GbBL9L": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_faMwGE",
-        "text_dYd3qY",
-        "buttons_GbBL9L"
-      ],
-      "disabled": true,
-      "settings": {
-        "video_type": "mp4",
-        "mp4_url": "https://cdn.shopify.com/videos/c/o/v/e097aa7cb638450fac06922eb3f4ee3b.mp4",
-        "youtube_url": "",
-        "vimeo_url": "",
+        "poster_image": "shopify://shop_images/home_page_banner_meteor.jpg",
+        "autoplay": true,
         "height": "large",
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
@@ -304,6 +229,7 @@
       "block_order": [
         "slide_KLLDip"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
@@ -591,9 +517,7 @@
     "video_banner_bYBDtT",
     "featured_collection_Wm9RXT",
     "multicolumn_overlay_3qheJf",
-    "video_banner_78ejgw",
-    "featured_collection_433wdW",
-    "video_banner_GUWXaB",
+    "video_banner_mLLiUK",
     "slideshow_QbFMdH",
     "homepage_collection_wrapper_rn3pGc",
     "collection_slider_U6N4bY",
