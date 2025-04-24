@@ -164,7 +164,7 @@
         "poster_image": "shopify://shop_images/home_page_banner_meteor.jpg",
         "autoplay": false,
         "height": "large",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-1d3747e9-474d-4563-b3d8-8a946f8b0c78",
         "adapt_height_first_image": false
