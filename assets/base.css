@@ -3637,8 +3637,11 @@ details-disclosure > details {
 .slider-button {
     position: absolute;
     top: 50%;
-    background: #fff;
+    background: #fff !important;
 }
  .slider-button--next {
     right: 0;
+}
+button.slider-button.slider-button--prev {
+    left: 0;
 }
