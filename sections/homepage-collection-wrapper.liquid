@@ -34,25 +34,22 @@
 <div class="homepage-collections-wrapper" style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px;">
   {% for block in section.blocks %}
     <a style="background-image: url({{ block.settings.background_image | img_url: 'master' }});" href="{{ block.settings.collection_url }}" class="homepage-collections-item color-{{ section.settings.block_color_scheme }} gradient">
-      <div class="homepage-collections-item__content">
-        {% if block.settings.heading_image != blank %}
-          <img class="homepage-collections-box-heading-image" src="{{ block.settings.heading_image | img_url: 'medium' }}" alt="">
-        {%- else -%}
-          <h3 class="homepage-collections-item__heading-text">
-            {{ block.settings.heading }}
-          </h3>
-        {%- endif -%}
-      </div>
+      {% if block.settings.heading_image != blank %}
+        <img class="homepage-collections-box-heading-image" src="{{ block.settings.heading_image | img_url: 'medium' }}" alt="">
+      {%- else -%}
+              <h3 class="homepage-collections-item__heading-text">
+                {{ block.settings.heading }}
+              </h3>
+            {%- endif -%}
       {% if block.settings.overlay_image != blank %}
-        <div class="homepage-collections-item__image-wrapper">
-          <img class="homepage-collections-item-overlay-image homepage-collections-item-overlay-image--fade-in" src="{{ block.settings.overlay_image | img_url: 'medium' }}" alt="">
-        </div>
+        <img class="homepage-collections-item-overlay-image homepage-collections-item-overlay-image--fade-in" src="{{ block.settings.overlay_image | img_url: 'medium' }}" alt="">
       {% endif %}
     </a>
   {% endfor %}
 </div>
 </div>
 </div>
+
 
 {% schema %}
 {
