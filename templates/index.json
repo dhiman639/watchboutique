@@ -246,7 +246,7 @@
           "settings": {
             "collection_url": "",
             "background_image": "shopify://shop_images/TN_Landscape.jpg",
-            "heading": "rOLEX",
+            "heading": "ROLEX",
             "overlay_image": "shopify://shop_images/r2.png"
           }
         },
@@ -255,7 +255,7 @@
           "settings": {
             "collection_url": "",
             "background_image": "shopify://shop_images/SM_Landscape.jpg",
-            "heading": "Patek Philippe",
+            "heading": "PATEK PHILIPPE",
             "overlay_image": "shopify://shop_images/pp1.png"
           }
         },
@@ -264,7 +264,7 @@
           "settings": {
             "collection_url": "",
             "background_image": "shopify://shop_images/ALT_Landscape.jpg",
-            "heading": "Royal Oak",
+            "heading": "ROYAL OAK",
             "overlay_image": "shopify://shop_images/AP1.png"
           }
         }
