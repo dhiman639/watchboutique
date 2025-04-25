@@ -3631,3 +3631,14 @@ details-disclosure > details {
 .card-vendor {
     margin-bottom: 12px;
 }
+  .slider-buttons {
+    justify-content: space-between;
+}
+.slider-button {
+    position: absolute;
+    top: 50%;
+    background: #fff;
+}
+ .slider-button--next {
+    right: 0;
+}
