@@ -1,0 +1,119 @@
+.homepage-promo-column {
+  position: relative;
+  padding: 0;
+}
+
+.homepage-promo-column__grid {
+  display: grid;
+  grid-gap: 2rem;
+  padding: 0;
+}
+
+.homepage-promo-column__item {
+  position: relative;
+}
+
+.homepage-promo-column__card {
+  height: 100%;
+  position: relative;
+}
+
+.homepage-promo-column__image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--media-radius);
+}
+
+.homepage-promo-column__image {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.homepage-promo-column__image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.homepage-promo-column__text-overlay {
+  position: absolute;
+  padding: 2rem;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.homepage-promo-column__text-overlay--top-left {
+  top: 0;
+  left: 0;
+  text-align: left;
+}
+
+.homepage-promo-column__text-overlay--top-center {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.homepage-promo-column__text-overlay--center-left {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  text-align: left;
+}
+
+.homepage-promo-column__text-overlay--center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.homepage-promo-column__text-overlay--bottom-left {
+  bottom: 0;
+  left: 0;
+  text-align: left;
+}
+
+.homepage-promo-column__text-overlay--bottom-center {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.homepage-promo-column__text-content {
+  max-width: 100%;
+}
+
+.homepage-promo-column__image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 2;
+}
+
+.homepage-promo-column__overlay-img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 749px) {
+  .homepage-promo-column__grid {
+    grid-gap: 1rem;
+  }
+  
+  .homepage-promo-column__text-overlay {
+    padding: 1rem;
+  }
+  
+  .homepage-promo-column__overlay-img {
+    max-width: 80px;
+  }
+}
