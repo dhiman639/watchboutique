@@ -3,11 +3,7 @@
   padding: 0;
 }
 
-.homepage-promo-column__grid {
-  display: grid;
-  grid-gap: 2rem;
-  padding: 0;
-}
+
 
 .homepage-promo-column__item {
   position: relative;
@@ -105,9 +101,7 @@
 }
 
 @media screen and (max-width: 749px) {
-  .homepage-promo-column__grid {
-    grid-gap: 1rem;
-  }
+ 
   
   .homepage-promo-column__text-overlay {
     padding: 1rem;
