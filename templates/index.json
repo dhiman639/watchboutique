@@ -247,7 +247,8 @@
             "image": "shopify://shop_images/SM_Landscape.jpg",
             "overlay_text": "<p>ROLEX</p>",
             "text_position": "center",
-            "overlay_image": "shopify://shop_images/r2.png"
+            "overlay_image": "shopify://shop_images/r2.png",
+            "color_scheme": "scheme-3e693006-6ac8-4bd6-9d4e-4fbf191b752a"
           }
         },
         "column_GmRYRh": {
@@ -256,7 +257,8 @@
             "image": "shopify://shop_images/ALT_Landscape.jpg",
             "overlay_text": "<p>PATEK PHILIPPE</p>",
             "text_position": "center",
-            "overlay_image": "shopify://shop_images/pp1.png"
+            "overlay_image": "shopify://shop_images/pp1.png",
+            "color_scheme": ""
           }
         },
         "column_y6zK4c": {
@@ -265,7 +267,8 @@
             "image": "shopify://shop_images/TN_Landscape.jpg",
             "overlay_text": "<p>ROYAL OAK</p>",
             "text_position": "center",
-            "overlay_image": "shopify://shop_images/AP1.png"
+            "overlay_image": "shopify://shop_images/AP1.png",
+            "color_scheme": ""
           }
         }
       },
