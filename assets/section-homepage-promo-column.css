@@ -94,10 +94,8 @@
 }
 
 .homepage-promo-column__overlay-img {
-  max-width: 100px;
+  max-width: 200px;
   height: auto;
-  border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 @media screen and (max-width: 749px) {
