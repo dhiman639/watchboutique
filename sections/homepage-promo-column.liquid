@@ -26,7 +26,7 @@
     
     <div class="homepage-promo-column__grid grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop">
       {%- for block in section.blocks -%}
-        <div class="homepage-promo-column__item grid__item" {{ block.shopify_attributes }}>
+        <div class="homepage-promo-column__item grid__item color-{{ block.settings.color_scheme }} gradient" {{ block.shopify_attributes }}>
           <div class="homepage-promo-column__card">
             {%- if block.settings.image != blank -%}
               <div class="homepage-promo-column__image-wrapper">
@@ -219,7 +219,13 @@
           "type": "image_picker",
           "id": "overlay_image",
           "label": "Overlay image"
-        }
+        },
+        {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    }
       ]
     }
   ],
