@@ -258,7 +258,7 @@
             "overlay_text": "<p>PATEK PHILIPPE</p>",
             "text_position": "center",
             "overlay_image": "shopify://shop_images/pp1.png",
-            "color_scheme": ""
+            "color_scheme": "scheme-1d3747e9-474d-4563-b3d8-8a946f8b0c78"
           }
         },
         "column_y6zK4c": {
@@ -268,7 +268,7 @@
             "overlay_text": "<p>ROYAL OAK</p>",
             "text_position": "center",
             "overlay_image": "shopify://shop_images/AP1.png",
-            "color_scheme": ""
+            "color_scheme": "scheme-1d3747e9-474d-4563-b3d8-8a946f8b0c78"
           }
         }
       },
