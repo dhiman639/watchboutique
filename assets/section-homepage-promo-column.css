@@ -88,7 +88,7 @@
 }
 
 .homepage-promo-column__overlay-img {
-  max-width: 200px;
+  max-width: 250px;
   height: auto;
 }
 
@@ -100,6 +100,6 @@
   }
   
   .homepage-promo-column__overlay-img {
-    max-width: 80px;
+    max-width: 150px;
   }
 }
