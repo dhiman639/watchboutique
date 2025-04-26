@@ -320,6 +320,7 @@
         "column_GLKnkJ",
         "column_aBxKUG"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "Multicolumn",
@@ -374,6 +375,7 @@
         "column_GmRYRh",
         "column_y6zK4c"
       ],
+      "disabled": true,
       "name": "Homepage Promo Columns",
       "settings": {
         "title": "Promotional Columns",
