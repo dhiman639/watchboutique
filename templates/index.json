@@ -284,61 +284,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_aLEepR": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_PFrAm8": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_GLKnkJ": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_aBxKUG": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_PFrAm8",
-        "column_GLKnkJ",
-        "column_aBxKUG"
-      ],
-      "disabled": true,
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "Button label",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "homepage_promo_column_cARHLE": {
       "type": "homepage-promo-column",
       "blocks": {
@@ -375,7 +320,6 @@
         "column_GmRYRh",
         "column_y6zK4c"
       ],
-      "disabled": true,
       "name": "Homepage Promo Columns",
       "settings": {
         "title": "Promotional Columns",
@@ -623,7 +567,6 @@
     "video_banner_mLLiUK",
     "slideshow_QbFMdH",
     "homepage_collection_wrapper_rn3pGc",
-    "multicolumn_aLEepR",
     "homepage_promo_column_cARHLE",
     "collection_slider_U6N4bY",
     "blog_post_slider_CtTqKc",
