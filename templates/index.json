@@ -278,6 +278,7 @@
       "settings": {
         "title": "THE COLLECTIONS",
         "heading_size": "h2",
+        "title_center": true,
         "columns_desktop": 3,
         "columns_mobile": "1",
         "image_ratio": "square",
