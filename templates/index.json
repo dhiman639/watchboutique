@@ -238,52 +238,6 @@
         "accessibility_info": ""
       }
     },
-    "homepage_collection_wrapper_rn3pGc": {
-      "type": "homepage-collection-wrapper",
-      "blocks": {
-        "collection_BnndVD": {
-          "type": "collection",
-          "settings": {
-            "collection_url": "",
-            "background_image": "shopify://shop_images/TN_Landscape.jpg",
-            "heading": "ROLEX",
-            "overlay_image": "shopify://shop_images/r2.png"
-          }
-        },
-        "collection_Pp6LhM": {
-          "type": "collection",
-          "settings": {
-            "collection_url": "",
-            "background_image": "shopify://shop_images/SM_Landscape.jpg",
-            "heading": "PATEK PHILIPPE",
-            "overlay_image": "shopify://shop_images/pp1.png"
-          }
-        },
-        "collection_GQYtMw": {
-          "type": "collection",
-          "settings": {
-            "collection_url": "",
-            "background_image": "shopify://shop_images/ALT_Landscape.jpg",
-            "heading": "ROYAL OAK",
-            "overlay_image": "shopify://shop_images/AP1.png"
-          }
-        }
-      },
-      "block_order": [
-        "collection_BnndVD",
-        "collection_Pp6LhM",
-        "collection_GQYtMw"
-      ],
-      "settings": {
-        "title": "THE COLLECTIONS",
-        "heading_size": "h2",
-        "title_center": true,
-        "color_scheme": "",
-        "block_color_scheme": "scheme-1d3747e9-474d-4563-b3d8-8a946f8b0c78",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "homepage_promo_column_cARHLE": {
       "type": "homepage-promo-column",
       "blocks": {
@@ -291,7 +245,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/TN_Landscape.jpg",
-            "overlay_text": "<p>Heading</p>",
+            "overlay_text": "<p>ROLEX</p>",
             "text_position": "center",
             "overlay_image": "shopify://shop_images/AP1.png"
           }
@@ -300,7 +254,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/TN_Landscape.jpg",
-            "overlay_text": "<p>Heading</p>",
+            "overlay_text": "<p>PATEK PHILIPPE</p>",
             "text_position": "center",
             "overlay_image": "shopify://shop_images/AP1.png"
           }
@@ -309,7 +263,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/TN_Landscape.jpg",
-            "overlay_text": "<p>Heading</p>",
+            "overlay_text": "<p>ROYAL OAK</p>",
             "text_position": "center",
             "overlay_image": "shopify://shop_images/AP1.png"
           }
@@ -566,7 +520,6 @@
     "featured_collection_xadGWT",
     "video_banner_mLLiUK",
     "slideshow_QbFMdH",
-    "homepage_collection_wrapper_rn3pGc",
     "homepage_promo_column_cARHLE",
     "collection_slider_U6N4bY",
     "blog_post_slider_CtTqKc",
