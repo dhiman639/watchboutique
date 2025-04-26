@@ -14,12 +14,6 @@
   position: relative;
 }
 
-.homepage-promo-column__image-wrapper {
-  position: relative;
-  overflow: hidden;
-  border-radius: var(--media-radius);
-}
-
 .homepage-promo-column__image {
   position: relative;
   width: 100%;
