@@ -103,7 +103,7 @@
           "settings": {
             "image": "shopify://shop_images/Audemars_Piguet.jpg",
             "title": "Audemars Piguet",
-            "text": "",
+            "text": "<p>Royal Oak</p>",
             "link_label": "Shop Now",
             "link": "shopify://collections/audemars-piguet"
           }
@@ -113,7 +113,7 @@
           "settings": {
             "image": "shopify://shop_images/Patek_Philippe.jpg",
             "title": "Patek Philippe",
-            "text": "",
+            "text": "<p>Nautilus 5711</p>",
             "link_label": "Shop Now",
             "link": "shopify://collections/patek-philippe"
           }
