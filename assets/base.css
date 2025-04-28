@@ -3654,4 +3654,7 @@ button.slider-button.slider-button--prev {
 .button, .shopify-challenge__button, .customer button, button.shopify-payment-button__button--unbranded {
     min-height: calc(3.5rem + var(--buttons-border-width) * 2);
 }
+  p {
+    font-size: 10px;
+}
 }
