@@ -15,6 +15,10 @@ slider-component.slider-component-full-width {
   slider-component.page-width {
     padding: 0 1.5rem;
   }
+  .slider-button {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 @media screen and (min-width: 749px) and (max-width: 990px) {
