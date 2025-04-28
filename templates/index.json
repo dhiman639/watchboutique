@@ -437,6 +437,7 @@
         "column_4kekiR",
         "column_GRahnG"
       ],
+      "disabled": true,
       "custom_css": [
         "p {text-transform: uppercase;}"
       ],
