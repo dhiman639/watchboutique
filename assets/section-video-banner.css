@@ -156,6 +156,9 @@ iframe.video-banner__media {
       padding: 1.5rem;
     }
     
+    .video-banner__box {
+      padding: 0rem;
+    }
     
     /* Stack content vertically on mobile */
     .video-banner__content--top-left,
