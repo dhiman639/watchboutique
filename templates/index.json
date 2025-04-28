@@ -149,7 +149,7 @@
         "color_scheme": "scheme-1",
         "block_color_scheme": "scheme-1d3747e9-474d-4563-b3d8-8a946f8b0c78",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
