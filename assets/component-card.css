@@ -600,3 +600,7 @@ h3.card__heading.h3 {
     clip-path: polygon(var(--shape--blob-5));
   }
 }
+.info-flex {
+    display: flex;
+    justify-content: space-between;
+}
