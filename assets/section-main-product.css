@@ -1495,3 +1495,7 @@ a.product__text {
 .complementary-products__container .card__information, .card__information .price {
     text-align: left !important;
 }
+.info-flex {
+    display: flex;
+    justify-content: space-between;
+}
