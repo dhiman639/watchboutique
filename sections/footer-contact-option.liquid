@@ -111,12 +111,18 @@
           <div class="ft-Contact_Icon section-{{ section.id }}-icon-color">
             {% case section.settings[icon] %}
               {% when 'chat' %}
+              {% if section.settings.label_1 != blank %}
                 <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 25"><path clip-rule="evenodd" d="M13 1C6.37287 1 1 5.925 1 12c0 3.331 1.62157 6.31 4.17391 8.327V24l3.13044-1.875C9.74748 22.688 11.3336 23 13 23c6.6271 0 12-4.925 12-11S19.6271 1 13 1v0z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path clip-rule="evenodd" d="M7.26089 12.5c0 .276-.23374.5-.52174.5s-.52174-.224-.52174-.5.23374-.5.52174-.5.52174.224.52174.5v0zM13.5217 12.5c0 .276-.2337.5-.5217.5-.288 0-.5217-.224-.5217-.5S12.712 12 13 12c.288 0 .5217.224.5217.5v0zM19.7826 12.5c0 .276-.2337.5-.5217.5-.288 0-.5218-.224-.5218-.5s.2338-.5.5218-.5c.288 0 .5217.224.5217.5v0z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-              {% when 'phone' %}
+             {% endif %}
+                {% when 'phone' %}
+               {% if section.settings.label_2 != blank %}
                 <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 25"><path clip-rule="evenodd" d="M2 5h12c.552 0 1 .448 1 1s-.448 1-1 1H2c-.552 0-1-.448-1-1s.448-1 1-1v0z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 5V4c0-1.657 1.343-3 3-3h6c1.657 0 3 1.343 3 3v1M5 3h6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path clip-rule="evenodd" d="M4 22h8V10H4v12z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8 10v12M4 14h8M4 18h8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path clip-rule="evenodd" d="M1 24h14v-2H1v2zM2 22h12V7H2v15z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-              {% when 'email' %}
+             {% endif %}
+                 {% when 'email' %}
+               {% if section.settings.label_3 != blank %}
                 <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 25"><path d="M3.08667 9.33936l8.55753 5.85494c.8171.5593 1.8939.5593 2.711 0l8.5576-5.85494" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path clip-rule="evenodd" d="M14.4139 1.43748c-.8525-.583306-1.9753-.583306-2.8278 0L1.95165 7.67957C1.35791 8.06357 1 8.72304 1 9.43052V21.8615c0 1.152.93391 2.0869 2.08696 2.0869H22.913c1.152 0 2.087-.9349 2.087-2.0869V9.43052c0-.70748-.359-1.36695-.9527-1.75095l-9.6334-6.24209v0z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.08667 21.8609l6.26087-5.2173M22.9128 21.8609l-6.2608-5.2173" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-            {% endcase %}
+           {% endif %}
+                 {% endcase %}
           </div>
           <p class="ft-Contact_Title">{{ section.settings[label] }}</p>
           
