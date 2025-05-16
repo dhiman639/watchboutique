@@ -245,7 +245,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/SM_Landscape.jpg",
-            "overlay_text": "<p>ROLEX | GMT-Master II</p>",
+            "overlay_text": "<p>ROLEX</p>",
             "text_position": "center",
             "overlay_image": "shopify://shop_images/r2.png",
             "color_scheme": "scheme-1d3747e9-474d-4563-b3d8-8a946f8b0c78"
@@ -255,7 +255,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/ALT_Landscape.jpg",
-            "overlay_text": "<p>PATEK PHILIPPE | Nautilus 5711</p>",
+            "overlay_text": "<p>PATEK PHILIPPE</p>",
             "text_position": "center",
             "overlay_image": "shopify://shop_images/pp1.png",
             "color_scheme": "scheme-1d3747e9-474d-4563-b3d8-8a946f8b0c78"
@@ -265,7 +265,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/TN_Landscape.jpg",
-            "overlay_text": "<p>AUDEMARSIGUET | Royal Oak</p>",
+            "overlay_text": "<p>AUDEMARSIGUET</p>",
             "text_position": "center",
             "overlay_image": "shopify://shop_images/AP1.png",
             "color_scheme": "scheme-1d3747e9-474d-4563-b3d8-8a946f8b0c78"
