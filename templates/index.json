@@ -352,7 +352,7 @@
         "column_33TKNm"
       ],
       "custom_css": [
-        ".title-wrapper-with-link{margin-bottom: 0; margin-top: 6rem}"
+        ".title-wrapper-with-link {margin-bottom: 0; margin-top: 5rem;}"
       ],
       "settings": {
         "title": "LEARN MORE ABOUT SUPER CLONES",
