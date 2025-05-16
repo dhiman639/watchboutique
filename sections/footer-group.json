@@ -15,8 +15,8 @@
       "type": "footer-contact-option",
       "settings": {
         "color_scheme": "scheme-4",
-        "title": "Need a hand?",
-        "description": "<p>We're available to call free on 0800 817 4281 between 9am - 5pm GMT Mon - Fri, or contact us via Live Chat or email</p>",
+        "title": "Have a question?",
+        "description": "<p>Contact us anytime—we respond within 12 hours. You’ll hear from a real person, not a bot. We’re here to help.</p>",
         "icon_1": "chat",
         "label_1": "Contact Us",
         "action_1": "pages/contact",
