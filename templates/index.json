@@ -265,7 +265,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/TN_Landscape.jpg",
-            "overlay_text": "<p>AUDEMARSIGUET</p>",
+            "overlay_text": "<p>AUDEMARS PIGUET</p>",
             "text_position": "center",
             "overlay_image": "shopify://shop_images/AP1.png",
             "color_scheme": "scheme-1d3747e9-474d-4563-b3d8-8a946f8b0c78"
