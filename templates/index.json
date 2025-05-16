@@ -474,7 +474,7 @@
         "text_cUEMp4": {
           "type": "text",
           "settings": {
-            "text": "<p>Stay up to date with Bremont. Be the first to hear about Bremont's exclusive events and new product releases.</p>",
+            "text": "<p>Be the first to know when new super clone drops go live—plus exclusive releases, updated specs, and factory-direct model launches.</p>",
             "text_style": "body"
           }
         },
@@ -491,7 +491,7 @@
         "caption_qaA3nj": {
           "type": "caption",
           "settings": {
-            "caption": "By signing up to the Bremont newsletter you are agreeing to allow us to email you. We will not share your email with any third parties.",
+            "caption": "By signing up to the Watch Boutique newsletter you are agreeing to allow us to email you. We will not share your email with any third parties.",
             "text_style": "caption-with-letter-spacing",
             "text_size": "small"
           }
