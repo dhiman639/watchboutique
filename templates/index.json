@@ -183,6 +183,30 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_Qh6BMF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FWAnbg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Check Out the Video of our Rolex GMT-Master II",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FWAnbg"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
     "video_banner_mLLiUK": {
       "type": "video-banner",
       "settings": {
@@ -526,6 +550,7 @@
     "featured_collection_Wm9RXT",
     "multicolumn_overlay_3qheJf",
     "featured_collection_xadGWT",
+    "rich_text_Qh6BMF",
     "video_banner_mLLiUK",
     "slideshow_QbFMdH",
     "homepage_promo_column_cARHLE",
