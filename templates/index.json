@@ -245,7 +245,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/SM_Landscape.jpg",
-            "overlay_text": "<p>ROLEX</p>",
+            "overlay_text": "<p><strong>ROLEX</strong></p>",
             "text_position": "center",
             "overlay_image": "shopify://shop_images/r2.png",
             "color_scheme": "scheme-1d3747e9-474d-4563-b3d8-8a946f8b0c78"
