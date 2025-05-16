@@ -61,7 +61,7 @@
       "settings": {
         "collection": "rolex",
         "products_to_show": 4,
-        "title": "THE BESTSELLER",
+        "title": "MOST WANTED",
         "title_center": true,
         "heading_size": "h2",
         "description": "",
@@ -137,7 +137,7 @@
         "column_tUPjxi"
       ],
       "settings": {
-        "title": "BEST SELLING LIMITED EDITIONS",
+        "title": "FEATURED COLLECTIONS",
         "heading_size": "h2",
         "title_center": true,
         "image_width": "full",
@@ -159,7 +159,7 @@
       "settings": {
         "collection": "patek-philippe",
         "products_to_show": 4,
-        "title": "THE NEW ARRIVALS",
+        "title": "NEW ARRIVALS",
         "title_center": true,
         "heading_size": "h2",
         "description": "",
@@ -279,7 +279,7 @@
       ],
       "name": "Homepage Promo Columns",
       "settings": {
-        "title": "THE COLLECTIONS",
+        "title": "SHOP BY BRAND",
         "heading_size": "h2",
         "title_center": true,
         "columns_desktop": 3,
@@ -352,7 +352,7 @@
         "column_33TKNm"
       ],
       "settings": {
-        "title": "TRIED & TESTED",
+        "title": "LEARN MORE ABOUT SUPER CLONES",
         "heading_size": "h2",
         "title_center": true,
         "image_width": "full",
