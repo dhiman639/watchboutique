@@ -297,59 +297,59 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Ambasador_link_through_-_Jimmy.jpg",
-            "title": "JIMMY CHIN",
+            "title": "",
             "text": "",
-            "link_label": "MEET JIMMY",
+            "link_label": "Learn More",
             "link": ""
           }
         },
-        "column_x87PVW": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Bremont_OceanRamsey_S302_14_HP.jpg",
-            "title": "JIMMY CHIN",
-            "text": "",
-            "link_label": "MEET JIMMY",
-            "link": ""
-          }
-        },
-        "column_6ygHNb": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Bremont_JasonFox_16x9_copy.jpg",
-            "title": "JIMMY CHIN",
-            "text": "",
-            "link_label": "MEET JIMMY",
-            "link": ""
-          }
-        },
-        "column_fnYMqT": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Bremont_AldoKane_16x9-min_copy.jpg",
-            "title": "JIMMY CHIN",
-            "text": "",
-            "link_label": "MEET JIMMY",
-            "link": ""
-          }
-        },
-        "column_33TKNm": {
+        "column_iqaRwm": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Ambasador_link_through_-_Jimmy.jpg",
-            "title": "JIMMY CHIN",
+            "title": "",
             "text": "",
-            "link_label": "MEET JIMMY",
+            "link_label": "Learn More",
+            "link": ""
+          }
+        },
+        "column_cqfqc6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Ambasador_link_through_-_Jimmy.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Learn More",
+            "link": ""
+          }
+        },
+        "column_3rWAn8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Ambasador_link_through_-_Jimmy.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Learn More",
+            "link": ""
+          }
+        },
+        "column_LHAcAm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Ambasador_link_through_-_Jimmy.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Learn More",
             "link": ""
           }
         }
       },
       "block_order": [
         "column_pxRzbH",
-        "column_x87PVW",
-        "column_6ygHNb",
-        "column_fnYMqT",
-        "column_33TKNm"
+        "column_iqaRwm",
+        "column_cqfqc6",
+        "column_3rWAn8",
+        "column_LHAcAm"
       ],
       "custom_css": [
         ".title-wrapper-with-link {margin-bottom: 0; margin-top: 6rem;}"
