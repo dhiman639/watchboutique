@@ -11,6 +11,7 @@
   "sections": {
     "custom_liquid_8apY9x": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div id=\"overview\">",
         "color_scheme": "",
