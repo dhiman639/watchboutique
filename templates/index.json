@@ -550,6 +550,7 @@
         "column_Tac9Dh": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/customer-support_9465815.png",
             "title": "Responsive Customer Support",
             "text": "<p>Need help? Our team replies fast, with real answers—not canned replies.</p>",
             "link_label": "",
@@ -559,6 +560,7 @@
         "column_ft6dPp": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/ssl_16863277_1.png",
             "title": "100% Secure Payments",
             "text": "<p>Your checkout is fully encrypted and protected with industry-leading security.</p>",
             "link_label": "",
@@ -568,6 +570,7 @@
         "column_REyz3y": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/delivery-truck_6021966.png",
             "title": "Free Shipping, Always",
             "text": "<p>Enjoy complimentary shipping on every order—no minimums, no tricks.</p>",
             "link_label": "",
@@ -577,6 +580,7 @@
         "column_H3cVqj": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/return_18858293.png",
             "title": "No-Hassle Returns",
             "text": "<p>Not satisfied? Return your watch within 48 hours. No stress, no questions.</p>",
             "link_label": "",
@@ -586,6 +590,7 @@
         "column_dmrNrq": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/medal_11866171.png",
             "title": "Unrivaled Quality",
             "text": "<p>We carry the best super clones available online—period.</p>",
             "link_label": "",
@@ -595,6 +600,7 @@
         "column_YTxnNV": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/trending_18050655.png",
             "title": "Always the Latest Versions",
             "text": "<p>We stock only the newest factory releases with updated specs and details.</p>",
             "link_label": "",
