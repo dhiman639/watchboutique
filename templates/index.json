@@ -543,6 +543,90 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_Abeqiq": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Tac9Dh": {
+          "type": "column",
+          "settings": {
+            "title": "Responsive Customer Support",
+            "text": "<p>Need help? Our team replies fast, with real answers—not canned replies.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ft6dPp": {
+          "type": "column",
+          "settings": {
+            "title": "100% Secure Payments",
+            "text": "<p>Your checkout is fully encrypted and protected with industry-leading security.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_REyz3y": {
+          "type": "column",
+          "settings": {
+            "title": "Free Shipping, Always",
+            "text": "<p>Enjoy complimentary shipping on every order—no minimums, no tricks.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_H3cVqj": {
+          "type": "column",
+          "settings": {
+            "title": "No-Hassle Returns",
+            "text": "<p>Not satisfied? Return your watch within 48 hours. No stress, no questions.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dmrNrq": {
+          "type": "column",
+          "settings": {
+            "title": "Unrivaled Quality",
+            "text": "<p>We carry the best super clones available online—period.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YTxnNV": {
+          "type": "column",
+          "settings": {
+            "title": "Always the Latest Versions",
+            "text": "<p>We stock only the newest factory releases with updated specs and details.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Tac9Dh",
+        "column_ft6dPp",
+        "column_REyz3y",
+        "column_H3cVqj",
+        "column_dmrNrq",
+        "column_YTxnNV"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Why Shop with Us",
+        "heading_size": "h2",
+        "image_width": "small",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -557,6 +641,7 @@
     "collection_slider_U6N4bY",
     "blog_post_slider_CtTqKc",
     "multicolumn_THCqUY",
-    "image_with_text_Q6i8rP"
+    "image_with_text_Q6i8rP",
+    "multicolumn_Abeqiq"
   ]
 }
