@@ -470,6 +470,7 @@
       ],
       "settings": {
         "title": "",
+        "header_alignment": "left",
         "heading_size": "h1",
         "image_width": "small",
         "image_ratio": "adapt",
@@ -619,6 +620,7 @@
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "Why Shop with Us",
+        "header_alignment": "center",
         "heading_size": "h2",
         "image_width": "small",
         "image_ratio": "adapt",
