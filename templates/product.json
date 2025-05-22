@@ -118,10 +118,10 @@
             "enable_quick_add": true
           }
         },
-        "video_ktBJhJ": {
+        "video_jPLhGk": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/thewatch.mp4"
+            "video": "{{ product.metafields.custom.video.value }}"
           }
         }
       },
@@ -139,7 +139,7 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "complementary_jpDaWi",
-        "video_ktBJhJ"
+        "video_jPLhGk"
       ],
       "settings": {
         "enable_sticky_info": true,
