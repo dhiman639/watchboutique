@@ -62,6 +62,12 @@
             "text_style": "body"
           }
         },
+        "video_ktBJhJ": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/thewatch.mp4"
+          }
+        },
         "description": {
           "type": "description",
           "disabled": true,
@@ -127,6 +133,7 @@
         "quantity_selector",
         "buy_buttons",
         "text_AhqcpH",
+        "video_ktBJhJ",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
