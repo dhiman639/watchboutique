@@ -62,12 +62,6 @@
             "text_style": "body"
           }
         },
-        "video_ktBJhJ": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/thewatch.mp4"
-          }
-        },
         "description": {
           "type": "description",
           "disabled": true,
@@ -123,6 +117,12 @@
             "image_ratio": "portrait",
             "enable_quick_add": true
           }
+        },
+        "video_ktBJhJ": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/thewatch.mp4"
+          }
         }
       },
       "block_order": [
@@ -133,13 +133,13 @@
         "quantity_selector",
         "buy_buttons",
         "text_AhqcpH",
-        "video_ktBJhJ",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "complementary_jpDaWi"
+        "complementary_jpDaWi",
+        "video_ktBJhJ"
       ],
       "settings": {
         "enable_sticky_info": true,
