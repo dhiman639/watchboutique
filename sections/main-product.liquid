@@ -210,10 +210,11 @@
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
               {%- when 'video' -%}
+              {% assign poster = product.featured_image.src | image_url %}
                    {{
             block.settings.video
             | video_tag:
-            poster: product.featured_image.src ,
+            poster: poster,
               width:'100%',
               autoplay: false,
               loop: true,
