@@ -106,6 +106,7 @@
         },
         "complementary_jpDaWi": {
           "type": "complementary",
+          "disabled": true,
           "settings": {
             "block_heading": "Other Variations",
             "make_collapsible_row": false,
