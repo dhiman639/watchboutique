@@ -62,25 +62,10 @@
             "text_style": "body"
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {}
-        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Delivery & Returns",
-            "icon": "none",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Size guide",
             "icon": "none",
             "content": "",
             "page": ""
@@ -104,20 +89,6 @@
             "page": ""
           }
         },
-        "complementary_jpDaWi": {
-          "type": "complementary",
-          "disabled": true,
-          "settings": {
-            "block_heading": "Other Variations",
-            "make_collapsible_row": false,
-            "icon": "price_tag",
-            "product_list_limit": 1,
-            "products_per_page": 1,
-            "pagination_style": "counter",
-            "image_ratio": "portrait",
-            "enable_quick_add": true
-          }
-        },
         "video_jPLhGk": {
           "type": "video",
           "settings": {
@@ -133,12 +104,9 @@
         "quantity_selector",
         "buy_buttons",
         "text_AhqcpH",
-        "description",
         "collapsible-row-0",
-        "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "complementary_jpDaWi",
         "video_jPLhGk"
       ],
       "settings": {
