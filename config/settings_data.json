@@ -116,7 +116,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "search_show_categories": true,
+    "search_show_categories": false,
     "search_categories_title": "Categories Title",
     "image_1": "shopify://shop_images/365_Oversized_Tote_Bag_Maitake-Beige_1_fa88f4fb-47c3-424b-bfb4-3c39534d5401.webp",
     "collection_0": "frontpage",
