@@ -491,7 +491,7 @@
     "blog_post_slider_CtTqKc": {
       "type": "blog-post-slider",
       "settings": {
-        "blog": "news",
+        "blog": "homepage",
         "post_limit": 5,
         "heading": "DEFINING A TRUE SUPER CLONE",
         "heading_size": "h2",
