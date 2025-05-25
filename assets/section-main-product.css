@@ -371,7 +371,9 @@ a.product__text {
   display: block;
   text-align: center;
 }
-
+video.video-banner {
+    border: 1px solid rgba(227, 227, 227, 1);
+}
 .product--no-media .product-popup-modal__button {
   padding-right: 0;
 }
