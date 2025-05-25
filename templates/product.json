@@ -55,6 +55,12 @@
             "show_gift_card_recipient": false
           }
         },
+        "video_jPLhGk": {
+          "type": "video",
+          "settings": {
+            "video": "{{ product.metafields.custom.video.value }}"
+          }
+        },
         "text_AhqcpH": {
           "type": "text",
           "settings": {
@@ -88,12 +94,6 @@
             "content": "",
             "page": ""
           }
-        },
-        "video_jPLhGk": {
-          "type": "video",
-          "settings": {
-            "video": "{{ product.metafields.custom.video.value }}"
-          }
         }
       },
       "block_order": [
@@ -103,11 +103,11 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "video_jPLhGk",
         "text_AhqcpH",
         "collapsible-row-0",
         "collapsible-row-2",
-        "collapsible-row-3",
-        "video_jPLhGk"
+        "collapsible-row-3"
       ],
       "settings": {
         "enable_sticky_info": true,
