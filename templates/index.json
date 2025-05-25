@@ -85,97 +85,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_Abeqiq": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_Tac9Dh": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/customer-support_9465815.png",
-            "title": "Responsive Customer Support",
-            "text": "<p>Need help? Our team replies fast, with real answers—not canned replies.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_ft6dPp": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ssl_16863277_1.png",
-            "title": "100% Secure Payments",
-            "text": "<p>Your checkout is fully encrypted and protected with industry-leading security.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_REyz3y": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/delivery-truck_6021966.png",
-            "title": "Free Shipping, Always",
-            "text": "<p>Enjoy complimentary shipping on every order—no minimums, no tricks.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_H3cVqj": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/return_18858293.png",
-            "title": "No-Hassle Returns",
-            "text": "<p>Not satisfied? Return your watch within 48 hours. No stress, no questions.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_dmrNrq": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/medal_11866171.png",
-            "title": "Unrivaled Quality",
-            "text": "<p>We carry the best super clones available online—period.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_YTxnNV": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/trending_18050655.png",
-            "title": "Always the Latest Versions",
-            "text": "<p>We stock only the newest factory releases with updated specs and details.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_Tac9Dh",
-        "column_ft6dPp",
-        "column_REyz3y",
-        "column_H3cVqj",
-        "column_dmrNrq",
-        "column_YTxnNV"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "Why Shop with Us",
-        "header_alignment": "center",
-        "heading_size": "h2",
-        "image_width": "small",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_overlay_3qheJf": {
       "type": "multicolumn-overlay",
       "blocks": {
@@ -505,6 +414,97 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_Abeqiq": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Tac9Dh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/customer-support_9465815.png",
+            "title": "Responsive Customer Support",
+            "text": "<p>Need help? Our team replies fast, with real answers—not canned replies.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ft6dPp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ssl_16863277_1.png",
+            "title": "100% Secure Payments",
+            "text": "<p>Your checkout is fully encrypted and protected with industry-leading security.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_REyz3y": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/delivery-truck_6021966.png",
+            "title": "Free Shipping, Always",
+            "text": "<p>Enjoy complimentary shipping on every order—no minimums, no tricks.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_H3cVqj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/return_18858293.png",
+            "title": "No-Hassle Returns",
+            "text": "<p>Not satisfied? Return your watch within 48 hours. No stress, no questions.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dmrNrq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/medal_11866171.png",
+            "title": "Unrivaled Quality",
+            "text": "<p>We carry the best super clones available online—period.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YTxnNV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/trending_18050655.png",
+            "title": "Always the Latest Versions",
+            "text": "<p>We stock only the newest factory releases with updated specs and details.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Tac9Dh",
+        "column_ft6dPp",
+        "column_REyz3y",
+        "column_H3cVqj",
+        "column_dmrNrq",
+        "column_YTxnNV"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Why Shop with Us",
+        "header_alignment": "center",
+        "heading_size": "h2",
+        "image_width": "small",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_THCqUY": {
       "type": "multicolumn",
       "blocks": {
@@ -640,7 +640,6 @@
   "order": [
     "video_banner_bYBDtT",
     "featured_collection_Wm9RXT",
-    "multicolumn_Abeqiq",
     "multicolumn_overlay_3qheJf",
     "featured_collection_xadGWT",
     "rich_text_Qh6BMF",
@@ -649,6 +648,7 @@
     "homepage_promo_column_cARHLE",
     "collection_slider_U6N4bY",
     "blog_post_slider_CtTqKc",
+    "multicolumn_Abeqiq",
     "multicolumn_THCqUY",
     "image_with_text_Q6i8rP"
   ]
